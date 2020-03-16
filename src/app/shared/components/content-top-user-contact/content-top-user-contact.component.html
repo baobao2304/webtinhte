@@ -1,0 +1,22 @@
+<div class="row mt-5 rounded-bottom" style="background-color:white;border-top:8px solid black; ">
+    <div class="col-12">
+        <p class="" style="font-size: 25px;font-weight: bold;margin-left: 20px;padding: 10px;">Những anh em tích cực nhất</p>
+        <div class="d-flex justify-content-between flex-lg-column overflow-auto">
+            
+            <div *ngFor="let cttop of contenttop" class="">
+                <hr class="d-none d-lg-block">
+                <div class="d-flex flex-column flex-lg-row">
+                    <img [src]="cttop?.imageuserpath" class="rounded-circle" width="50px;" height="50px;" style="margin-left: 30px;">
+                    <div class="ml-3">
+                        <p class=" d-none d-lg-block"><span style="background: #47b5e3;background: -webkit-linear-gradient(45deg,#47b5e3 0%,#27ffef 100%);background: linear-gradient(45deg,#47b5e3 0%,#27ffef 100%);-webkit-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47b5e3',endColorstr='#27ffef',GradientType=1 );filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47b5e3',endColorstr='#27ffef',GradientType=1 ); padding: 2px;">+ {{cttop.poin}}</span> <span class="text-secondary font-weight-bold">{{cttop.rank}}</span></p>
+                        <div class="d-flex justify-content-start">
+                            <p class="font-weight-bold">{{cttop.nameuser}}</p>
+                            <p class="text-secondary ml-4 d-none d-lg-block">{{cttop.turnsstatus}} bài đăng</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

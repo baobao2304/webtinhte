@@ -1,0 +1,116 @@
+<div class="container content-main ">
+    <div class="row">
+        <div class="col-sm-12 col-md-6">
+            <div class="card-big">
+                <img class="image-content-big" [src]="inforhot1?.imagepath">
+                <p class="content-big">{{inforhot1.title}}</p>
+                <p class="content-info-user-big">{{inforhot1.user}}<span> - {{inforhot1.time}}</span></p>
+            </div>
+        </div>
+        <div class="col-6 d-none d-md-block">
+            <div class="card-big">
+                <img class="image-content-big" [src]="inforhot2?.imagepath">
+                <p class="content-big">{{inforhot2.title}}</p>
+                <p class="content-info-user-big">{{inforhot2.user}}<span> - {{inforhot2.time}}</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div *ngFor="let info3 of inforhot"  class="col-12 col-md-4 border-md-top border-md-bottom " style="border-top: 2px solid hsl(215, 31%, 24%);">
+            <div class="card-small">
+                <div class="col-4 float-left col-md-12 image-content-small rounded" [ngStyle]="{ 'background-image': 'url(' + info3?.imagepath + ')'}">></div>
+                <div class="col-7 float-left col-md-12">
+                    <p class="content-small">{{info3.title}}</p>
+                    <p class="content-info-user-small">{{info3.user}}<span> - {{info3.time}}</span></p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="container ">
+    <div class="row">
+        <div class="col-12 rounded-bottom" style="background-image: url('./assets/img/4712104_desktop_channels.png');background-repeat: no-repeat;background-size: cover;">
+            <div class="row justify-content-center p-4">
+                <div class="col-1 col-sm-2 ">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img width="70px" height="70px" src="./assets/img/4736335_kenhtinhte_xe-03.png" style="background-size: contain;">
+                        </div>
+                        <div class="col-12 d-none d-sm-block text-center">
+                            <p class="font-weight-bold text-light"> Xe</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="col-1 col-sm-2">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img width="70px" height="70px" src="./assets/img/4712028_logo3.png" style="background-size: contain;">
+                        </div>
+                        <div class="col-12 d-none d-sm-block text-center">
+                            <p class="font-weight-bold text-light">Camera</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="col-1 col-sm-2">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img width="70px" height="70px" src="./assets/img/4712029_logo4.png" style="background-size: contain;">
+                        </div>
+                        <div class="col-12 d-none d-sm-block text-center">
+                            <p class="font-weight-bold text-light">Audio</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-1 col-sm-2">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img width="70px" height="70px" src="./assets/img/4712030_logo5.png" style="background-size: contain;">
+                        </div>
+                        <div class="col-12 d-none d-sm-block text-center">
+                            <p class="font-weight-bold text-light">Nhattao</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-1 col-sm-2">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img width="70px" height="70px" src="./assets/img/4712026_logo1.png" style="background-size: contain;">
+                        </div>
+                        <div class="col-12 d-none d-sm-block text-center">
+                            <p class="font-weight-bold text-light">YouTube</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <hr class="text-center" style="width: 70%; color: grey;">
+            <div class="text-center p-2">
+                <a style="    padding: 14px 26px; background-image: linear-gradient(45deg, hsl(195, 100%, 63%) 0%, hsl(220, 13%, 95%) 75% );border-radius: 3px;width: 50px; height: 100px;">
+                    <img width="70px" height="50px" src="./assets/img/tải xuống.png">
+                    <span class="font-weight-bold" style="font-size: 12px">XEM FEED CỦA RIÊNG BẠN</span>
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>

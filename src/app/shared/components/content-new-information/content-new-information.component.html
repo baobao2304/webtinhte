@@ -1,0 +1,18 @@
+<p class="content-title-word">Thông tin mới</p>
+            <div class="card-message-small-big ">
+                <a href="#" *ngFor="let newifo of newinfo">
+                    <div class="card-message-small-more d-flex justify-content-start">
+                        <img class="d-flex" [src]="newifo?.imagepath" class="rounded" width="400px" height="130px">
+                        <div class="">
+                            <p class=" " style="color: black; font-size: 20px; margin-left: 20px;font-weight: bold;">{{newifo.title}}</p>
+                            <p class="" style="margin-left: 30px; text-decoration: none;color:black;">{{newifo.content}}</p>
+                            <p class="content-info-user-big">{{newifo.user}}<span> - {{newifo.time}}</span></p>
+
+                        </div>
+                    </div>
+                </a>
+               
+                <div class="p-4">
+                </div>
+                <a class="btn-content-menu-right btn text-center">Xem Tất Cả</a>
+            </div>

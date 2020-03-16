@@ -1,0 +1,20 @@
+<div class="row" style="background-color:white;border-top:8px solid black;background-size: contain;">
+    <div class="col-12 position-relative">
+        <p class="content-title-word">Cộng Đồng</p>
+        <hr>
+        <div class="row  flex-column flex-lg-row overflow-auto edit-menu-scroll">
+            <div *ngFor="let tm of trademarkss" class="d-flex justify-content-start flex-column flex-lg-row mb-2">
+                <img class="rounded ml-3" [src]="tm?.imagepath" width="150px;">
+                <div class="ml-4 text-center">
+                    <span class="font-weight-bold ">{{tm.titlebBig}}</span><br>
+                    <span class="text-secondary d-md-none d-lg-block">{{tm.titlebSmall}}</span>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="p-4">
+        </div>
+        <button class="btn-content-menu-left text-light " >Xem Tất Cả</button>
+    </div>
+</div>

@@ -1,6 +1,6 @@
 <p class="content-title-word">Thông tin mới</p>
             <div class="card-message-small-big ">
-                <a href="#" *ngFor="let newifo of newinfo">
+                <a [href]="'n/newinfo/'+newifo.id" *ngFor="let newifo of newinfo">
                     <div class="card-message-small-more d-flex justify-content-start">
                         <img class="d-flex" [src]="newifo?.imagepath" class="rounded" width="400px" height="130px">
                         <div class="">

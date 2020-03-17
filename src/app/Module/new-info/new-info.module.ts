@@ -4,11 +4,11 @@ import { NewinfomainComponent } from './newinfomain/newinfomain.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { RouterModule } from '@angular/router';
 
-
+import { ActivatedRoute } from '@angular/router';
 
 const routes = [
   {
-      path     : '',
+      path     : 'newinfo/:id',
       component: NewinfomainComponent,
   }
 ];
@@ -24,6 +24,10 @@ const routes = [
   exports: [ RouterModule]
 })
 export class NewInfoModule  {
-
-
+  // constructor( implements OnInit
+  //   private route: ActivatedRoute,
+  // ) { }
+  // this.route.paramMap.subscribe(params => {
+  //   this.product = products[+params.get('productId')];
+  // });
 }

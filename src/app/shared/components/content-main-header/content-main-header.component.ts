@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { INFOHOTS } from 'src/app/core/Mock/mock-infohot';
 import { InfoHot } from '../../models/infohot';
 
@@ -22,4 +22,9 @@ export class ContentMainHeaderComponent implements OnInit {
   //     // infor.
   //   }
   // }
+  @HostListener('window:scroll', ['$event'])
+  scrollHandler(event){
+    console.log(event);
+    console.log('now you are scrolling event');
+  }
 }

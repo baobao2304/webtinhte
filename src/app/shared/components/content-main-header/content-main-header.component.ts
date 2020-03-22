@@ -23,7 +23,7 @@ export class ContentMainHeaderComponent implements OnInit {
   //   }
   // }
   @HostListener('window:scroll', ['$event'])
-  scrollHandler(event){
+  scrollHandler(event) {
     console.log(event);
     console.log('now you are scrolling event');
   }

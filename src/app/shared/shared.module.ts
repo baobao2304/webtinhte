@@ -9,6 +9,9 @@ import { ContentSlideStoryComponent } from './components/content-slide-story/con
 import { ContentTopUserContactComponent } from './components/content-top-user-contact/content-top-user-contact.component';
 import { DownloadAppTinhteComponent } from './components/download-app-tinhte/download-app-tinhte.component';
 import { MenuContentComponent } from './components/menu-content/menu-content.component';
+import { ContentInfoHotSystemComponent } from './components/content-info-hot-system/content-info-hot-system.component';
+import { TaghotComponent } from './components/taghot/taghot.component';
+import { SkilltinhteComponent } from './components/skilltinhte/skilltinhte.component';
 
 
 
@@ -22,7 +25,10 @@ import { MenuContentComponent } from './components/menu-content/menu-content.com
     ContentSlideStoryComponent,
     ContentTopUserContactComponent,
     DownloadAppTinhteComponent,
-    MenuContentComponent
+    MenuContentComponent,
+    ContentInfoHotSystemComponent,
+    TaghotComponent,
+    SkilltinhteComponent
   ],
   imports: [
     CommonModule
@@ -36,7 +42,11 @@ import { MenuContentComponent } from './components/menu-content/menu-content.com
     ContentSlideStoryComponent,
     ContentTopUserContactComponent,
     DownloadAppTinhteComponent,
-    MenuContentComponent
+    MenuContentComponent,
+    ContentInfoHotSystemComponent,
+    TaghotComponent,
+    SkilltinhteComponent
+
   ]
 })
 export class SharedModule { }

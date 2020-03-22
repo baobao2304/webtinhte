@@ -16,7 +16,7 @@ export const NEWINFOS: NewInfo[] = [
         // tslint:disable-next-line:max-line-length
         content: 'Đây là giải pháp tạm thời để có thể tiêu diệt Virus Corona hay COVID-19 trong xe ô tô, nhất là xe của bạn có chở và tiếp xúc với người lạ và đang băn khoăn lo lắng về chuyện Virus sẽ ở trong xe và…',
         imagepath: './assets/img/2495263.jpg',
-        imageuser: '',
+        imageuser: './assets/img/39792.jpg',
         user: 'Baroto',
         time: '11 phút trước',
     },
@@ -26,7 +26,7 @@ export const NEWINFOS: NewInfo[] = [
         // tslint:disable-next-line:max-line-length
         content: 'Đây là giải pháp tạm thời để có thể tiêu diệt Virus Corona hay COVID-19 trong xe ô tô, nhất là xe của bạn có chở và tiếp xúc với người lạ và đang băn khoăn lo lắng về chuyện Virus sẽ ở trong xe và…',
         imagepath: './assets/img/2495263.jpg',
-        imageuser: '',
+        imageuser: './assets/img/39792.jpg',
         user: 'Baroto',
         time: '12 phút trước',
     },
@@ -36,7 +36,7 @@ export const NEWINFOS: NewInfo[] = [
         // tslint:disable-next-line:max-line-length
         content: 'Đây là giải pháp tạm thời để có thể tiêu diệt Virus Corona hay COVID-19 trong xe ô tô, nhất là xe của bạn có chở và tiếp xúc với người lạ và đang băn khoăn lo lắng về chuyện Virus sẽ ở trong xe và…',
         imagepath: './assets/img/2495263.jpg',
-        imageuser: '',
+        imageuser: './assets/img/39792.jpg',
         user: 'Baroto',
         time: '13 phút trước',
     },
@@ -46,7 +46,7 @@ export const NEWINFOS: NewInfo[] = [
         // tslint:disable-next-line:max-line-length
         content: 'Đây là giải pháp tạm thời để có thể tiêu diệt Virus Corona hay COVID-19 trong xe ô tô, nhất là xe của bạn có chở và tiếp xúc với người lạ và đang băn khoăn lo lắng về chuyện Virus sẽ ở trong xe và…',
         imagepath: './assets/img/2495263.jpg',
-        imageuser: '',
+        imageuser: './assets/img/39792.jpg',
         user: 'Baroto',
         time: '14 phút trước',
     },
@@ -56,7 +56,7 @@ export const NEWINFOS: NewInfo[] = [
         // tslint:disable-next-line:max-line-length
         content: 'Đây là giải pháp tạm thời để có thể tiêu diệt Virus Corona hay COVID-19 trong xe ô tô, nhất là xe của bạn có chở và tiếp xúc với người lạ và đang băn khoăn lo lắng về chuyện Virus sẽ ở trong xe và…',
         imagepath: './assets/img/2495263.jpg',
-        imageuser: '',
+        imageuser: './assets/img/39792.jpg',
         user: 'Baroto',
         time: '15 phút trước',
     },
@@ -66,7 +66,7 @@ export const NEWINFOS: NewInfo[] = [
         // tslint:disable-next-line:max-line-length
         content: 'Đây là giải pháp tạm thời để có thể tiêu diệt Virus Corona hay COVID-19 trong xe ô tô, nhất là xe của bạn có chở và tiếp xúc với người lạ và đang băn khoăn lo lắng về chuyện Virus sẽ ở trong xe và…',
         imagepath: './assets/img/2495263.jpg',
-        imageuser: '',
+        imageuser: './assets/img/39792.jpg',
         user: 'Baroto',
         time: '16 phút trước',
     },
@@ -76,7 +76,7 @@ export const NEWINFOS: NewInfo[] = [
         // tslint:disable-next-line:max-line-length
         content: 'Đây là giải pháp tạm thời để có thể tiêu diệt Virus Corona hay COVID-19 trong xe ô tô, nhất là xe của bạn có chở và tiếp xúc với người lạ và đang băn khoăn lo lắng về chuyện Virus sẽ ở trong xe và…',
         imagepath: './assets/img/2495263.jpg',
-        imageuser: '',
+        imageuser: './assets/img/39792.jpg',
         user: 'Baroto',
         time: '17 phút trước',
     },
@@ -86,7 +86,7 @@ export const NEWINFOS: NewInfo[] = [
         // tslint:disable-next-line:max-line-length
         content: 'Đây là giải pháp tạm thời để có thể tiêu diệt Virus Corona hay COVID-19 trong xe ô tô, nhất là xe của bạn có chở và tiếp xúc với người lạ và đang băn khoăn lo lắng về chuyện Virus sẽ ở trong xe và…',
         imagepath: './assets/img/2495263.jpg',
-        imageuser: '',
+        imageuser: './assets/img/39792.jpg',
         user: 'Baroto',
         time: '18 phút trước',
     },
@@ -96,7 +96,7 @@ export const NEWINFOS: NewInfo[] = [
         // tslint:disable-next-line:max-line-length
         content: 'Đây là giải pháp tạm thời để có thể tiêu diệt Virus Corona hay COVID-19 trong xe ô tô, nhất là xe của bạn có chở và tiếp xúc với người lạ và đang băn khoăn lo lắng về chuyện Virus sẽ ở trong xe và…',
         imagepath: './assets/img/2495263.jpg',
-        imageuser: '',
+        imageuser: './assets/img/39792.jpg',
         user: 'Baroto',
         time: '19 phút trước',
     },
@@ -106,7 +106,7 @@ export const NEWINFOS: NewInfo[] = [
         // tslint:disable-next-line:max-line-length
         content: 'Đây là giải pháp tạm thời để có thể tiêu diệt Virus Corona hay COVID-19 trong xe ô tô, nhất là xe của bạn có chở và tiếp xúc với người lạ và đang băn khoăn lo lắng về chuyện Virus sẽ ở trong xe và…',
         imagepath: './assets/img/2495263.jpg',
-        imageuser: '',
+        imageuser: './assets/img/39792.jpg',
         user: 'Baroto',
         time: '20 phút trước',
     },
@@ -116,7 +116,7 @@ export const NEWINFOS: NewInfo[] = [
         // tslint:disable-next-line:max-line-length
         content: 'Đây là giải pháp tạm thời để có thể tiêu diệt Virus Corona hay COVID-19 trong xe ô tô, nhất là xe của bạn có chở và tiếp xúc với người lạ và đang băn khoăn lo lắng về chuyện Virus sẽ ở trong xe và…',
         imagepath: './assets/img/2495263.jpg',
-        imageuser: '',
+        imageuser: './assets/img/39792.jpg',
         user: 'Baroto',
         time: '11 phút trước',
     },
@@ -126,7 +126,7 @@ export const NEWINFOS: NewInfo[] = [
         // tslint:disable-next-line:max-line-length
         content: 'Đây là giải pháp tạm thời để có thể tiêu diệt Virus Corona hay COVID-19 trong xe ô tô, nhất là xe của bạn có chở và tiếp xúc với người lạ và đang băn khoăn lo lắng về chuyện Virus sẽ ở trong xe và…',
         imagepath: './assets/img/2495263.jpg',
-        imageuser: '',
+        imageuser: './assets/img/39792.jpg',
         user: 'Baroto',
         time: '12 phút trước',
     },
@@ -136,7 +136,7 @@ export const NEWINFOS: NewInfo[] = [
         // tslint:disable-next-line:max-line-length
         content: 'Đây là giải pháp tạm thời để có thể tiêu diệt Virus Corona hay COVID-19 trong xe ô tô, nhất là xe của bạn có chở và tiếp xúc với người lạ và đang băn khoăn lo lắng về chuyện Virus sẽ ở trong xe và…',
         imagepath: './assets/img/2495263.jpg',
-        imageuser: '',
+        imageuser: './assets/img/39792.jpg',
         user: 'Baroto',
         time: '13 phút trước',
     },
@@ -146,7 +146,7 @@ export const NEWINFOS: NewInfo[] = [
         // tslint:disable-next-line:max-line-length
         content: 'Đây là giải pháp tạm thời để có thể tiêu diệt Virus Corona hay COVID-19 trong xe ô tô, nhất là xe của bạn có chở và tiếp xúc với người lạ và đang băn khoăn lo lắng về chuyện Virus sẽ ở trong xe và…',
         imagepath: './assets/img/2495263.jpg',
-        imageuser: '',
+        imageuser: './assets/img/39792.jpg',
         user: 'Baroto',
         time: '14 phút trước',
     },
@@ -156,7 +156,7 @@ export const NEWINFOS: NewInfo[] = [
         // tslint:disable-next-line:max-line-length
         content: 'Đây là giải pháp tạm thời để có thể tiêu diệt Virus Corona hay COVID-19 trong xe ô tô, nhất là xe của bạn có chở và tiếp xúc với người lạ và đang băn khoăn lo lắng về chuyện Virus sẽ ở trong xe và…',
         imagepath: './assets/img/2495263.jpg',
-        imageuser: '',
+        imageuser: './assets/img/39792.jpg',
         user: 'Baroto',
         time: '15 phút trước',
     },

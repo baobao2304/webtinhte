@@ -18,7 +18,7 @@
     <div class="row">
         <div *ngFor="let info3 of inforhot"  class="col-12 col-md-4 border-md-top border-md-bottom " style="border-top: 2px solid hsl(215, 31%, 24%);">
             <div class="card-small">
-                <div class="col-4 float-left col-md-12 image-content-small rounded" [ngStyle]="{ 'background-image': 'url(' + info3?.imagepath + ')'}">></div>
+                <div class="col-4 float-left col-md-12 image-content-small " style="background-size:contain; border-radius: 10px;" [ngStyle]="{ 'background-image': 'url(' + info3?.imagepath + ')'}"></div>
                 <div class="col-7 float-left col-md-12">
                     <p class="content-small">{{info3.title}}</p>
                     <p class="content-info-user-small">{{info3.user}}<span> - {{info3.time}}</span></p>

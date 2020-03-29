@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { TagHot } from '../../models/taghot';
 
 @Component({
   selector: 'app-taghot',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./taghot.component.css']
 })
 export class TaghotComponent implements OnInit {
-
+  @Input() dataTagHot: TagHot;
   constructor() { }
 
   ngOnInit(): void {

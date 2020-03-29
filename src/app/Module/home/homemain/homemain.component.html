@@ -1,3 +1,6 @@
+<div *ngFor="let ft of fruits">
+    {{ft.idfruit}}-{{ft.tenfruit}}-{{ft.namefruit}}
+</div>
 <app-content-main-header></app-content-main-header>
 <app-content-slide-story></app-content-slide-story>
 <div class="container-xl mt-5">
@@ -30,5 +33,5 @@
     </div>
 </div>
 <app-content-info-hot-system></app-content-info-hot-system>
-<app-taghot></app-taghot>
+<app-taghot [dataTagHot]="taghots" ></app-taghot>
 <app-skilltinhte></app-skilltinhte>

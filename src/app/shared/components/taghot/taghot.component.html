@@ -3,38 +3,11 @@
             <p class="font-weight-bold mt-1 ml-2" style="color: hsl(180, 100%, 55%);">#Tag đang HOT</p>
             <p class="text-secondary ml-2">anh em nhớ follow để nhận được thông tin mới nhất nhé</p>
         <div class=" row overflow-auto d-flex flex-row flex-lg-wrap">
-            <div class="card-system ml-3 rounded mb-3" style="background-color: black;"> 
-                <img  src="./assets/img/4454624_og.png" style="width: 250px;background-size: contain;border-top-left-radius: 20px; border-top-right-radius: 20px;">
-                <p class="text-light font-weight-bold ml-5">#Android</p>
+            <div *ngFor="let tg of dataTagHot" class="card-system ml-3 rounded mb-3" style="background-color: black;"> 
+                <img  [src]="tg?.imagepath" style="width: 250px;height: 150px;background-size: contain;border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                <p class="text-light font-weight-bold ml-5">{{tg.complain}}</p>
             </div>
-            <div class="card-system ml-3 rounded mb-3" style="background-color: black;"> 
-                <img  src="./assets/img/4454624_og.png" style="width: 250px;background-size: contain;border-top-left-radius: 20px; border-top-right-radius: 20px;">
-                <p class="text-light font-weight-bold ml-5">#Android</p>
-            </div>
-            <div class="card-system ml-3 rounded mb-3" style="background-color: black;"> 
-                <img  src="./assets/img/4454624_og.png" style="width: 250px;background-size: contain;border-top-left-radius: 20px; border-top-right-radius: 20px;">
-                <p class="text-light font-weight-bold ml-5">#Android</p>
-            </div>
-            <div class="card-system ml-3 rounded mb-3" style="background-color: black;"> 
-                <img  src="./assets/img/4454624_og.png" style="width: 250px;background-size: contain;border-top-left-radius: 20px; border-top-right-radius: 20px;">
-                <p class="text-light font-weight-bold ml-5">#Android</p>
-            </div>
-            <div class="card-system ml-3 rounded mb-3" style="background-color: black;"> 
-                <img  src="./assets/img/4454624_og.png" style="width: 250px;background-size: contain;border-top-left-radius: 20px; border-top-right-radius: 20px;">
-                <p class="text-light font-weight-bold ml-5">#Android</p>
-            </div>
-            <div class="card-system ml-3 rounded mb-3" style="background-color: black;"> 
-                <img  src="./assets/img/4454624_og.png" style="width: 250px;background-size: contain;border-top-left-radius: 20px; border-top-right-radius: 20px;">
-                <p class="text-light font-weight-bold ml-5">#Android</p>
-            </div>
-            <div class="card-system ml-3 rounded mb-3" style="background-color: black;"> 
-                <img  src="./assets/img/4454624_og.png" style="width: 250px;background-size: contain;border-top-left-radius: 20px; border-top-right-radius: 20px;">
-                <p class="text-light font-weight-bold ml-5">#Android</p>
-            </div>
-            <div class="card-system ml-3 rounded mb-3" style="background-color: black;"> 
-                <img  src="./assets/img/4454624_og.png" style="width: 250px;background-size: contain;border-top-left-radius: 20px; border-top-right-radius: 20px;">
-                <p class="text-light font-weight-bold ml-5">#Android</p>
-            </div>
+            
             
         </div>
         <br><br>

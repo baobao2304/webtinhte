@@ -1,1 +1,37 @@
 <p>testrouting works!</p>
+<h1>Test click event 1</h1>
+<div class="container" style="background-color: aquamarine;">
+    <button (click)="getHello()">Click Event</button>
+    <p>{{clickMessage1}}-{{clicks}}</p>
+</div>
+<h1>Test click event 2</h1>
+<div class="container" style="background-color: aquamarine;">
+    <!-- <button (click)="onClickMe2($event)">No! .. Click me!</button> -->
+    <p>{{clickMessage2}}</p>
+</div>
+<h1>Test event keyup 1</h1>
+<div class="container" style="background-color: aquamarine;">
+    <input (keyup)="onKey1($event)">
+    <p>{{values1}}</p>
+</div>
+<h1>Test event keyup 2</h1>
+<div class="container" style="background-color: aquamarine;">
+    <input (keyup)="onKey2($event)">
+    <p>{{values2}}</p>
+</div>
+<div class="container ">
+    <div style="background-color: aquamarine;"> 
+        <br>
+        <div *ngFor="let ft1 of fruits1">
+            {{ft1.tenfruit}}
+        </div>
+        <br>
+        <input (keyup)="findFruit($event)"  class="rounded-pill input-search1" type="text" placeholder="   Tìm bài viết, sản phẩm, nhóm..." name="">
+        <ul style="z-index: 1000;background-color: chartreuse;">
+            <li *ngFor="let ft of fruits2">{{ft.tenfruit}}</li>
+        </ul>
+    </div>
+    
+                           
+</div>
+<p class="position-absolute bg-dark">testrouting works!</p>

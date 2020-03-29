@@ -12,6 +12,7 @@ import { MenuContentComponent } from './components/menu-content/menu-content.com
 import { ContentInfoHotSystemComponent } from './components/content-info-hot-system/content-info-hot-system.component';
 import { TaghotComponent } from './components/taghot/taghot.component';
 import { SkilltinhteComponent } from './components/skilltinhte/skilltinhte.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -31,7 +32,7 @@ import { SkilltinhteComponent } from './components/skilltinhte/skilltinhte.compo
     SkilltinhteComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ],
   exports: [
     ContentDiscussInfoComponent,

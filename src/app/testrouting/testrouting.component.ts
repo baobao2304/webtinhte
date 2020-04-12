@@ -1,14 +1,28 @@
-import { Component, OnInit } from '@angular/core';
+import { Component,
+        AfterContentChecked,
+        AfterContentInit,
+        AfterViewChecked,
+        AfterViewInit,
+        DoCheck,
+        OnChanges,
+        OnDestroy,
+        OnInit,
+        SimpleChange,
+ } from '@angular/core';
 import { Router } from '@angular/router';
-import { Fruit } from '../shared/models/fruit';
-import { FruitService } from '../core/services/service-fruits';
+import { FormControl, FormGroup } from '@angular/forms';
 
+import { Fruit } from '../shared/models/fruit';
+import { FruitService } from '../core/http/fruits/service-fruits';
+
+// tslint:disable-next-line:no-conflicting-lifecycle
 @Component({
   selector: 'app-testrouting',
   templateUrl: './testrouting.component.html',
   styleUrls: ['./testrouting.component.css']
 })
-export class TestroutingComponent implements OnInit {
+// tslint:disable-next-line:max-line-length
+export class TestroutingComponent implements  OnInit, DoCheck, AfterContentInit, AfterContentChecked, AfterViewInit, AfterViewChecked, OnDestroy {
   clickMessage1 = '';
   clickMessage2 = '';
   values1 = '';
@@ -16,16 +30,45 @@ export class TestroutingComponent implements OnInit {
   clicks = 0;
   fruits1: Fruit [] = [];
   fruits2: Fruit [] = [];
+  name = new FormControl('');
+  profileForm = new FormGroup({
+    email: new FormControl(''),
+    name: new FormControl(''),
+    numberphone: new FormControl('')
+  });
   lowercase;
   constructor(
     private router: Router,
     private fruitservice: FruitService,
   ) {}
+  ngOnDestroy(): void {
+    // throw new Error("Method not implemented.");
+  }
+  ngAfterViewChecked(): void {
+    // throw new Error("Method not implemented.");
+  }
+  ngAfterViewInit(): void {
+    // throw new Error("Method not implemented.");
+  }
+  ngAfterContentChecked(): void {
+    // throw new Error("Method not implemented.");
+  }
+  ngAfterContentInit(): void {
+    // throw new Error("Method not implemented.");
+  }
+  ngDoCheck(): void {
+    // throw new Error("Method not implemented.");
+  }
+  // tslint:disable-next-line:use-lifecycle-interface
+  ngOnChanges(changes: SimpleChange) {
 
+  }
   ngOnInit() {
     console.log('configured routes: ', this.router.config);
     this.getFruit();
+    console.log('ngOnInit duoc thuc hien');
   }
+
   getHello() {
     this.clickMessage1 = 'Click da thanh cong!!';
     this.clicks++;
@@ -57,5 +100,10 @@ export class TestroutingComponent implements OnInit {
         this.fruits2.push(i);
       }
     }
+  }
+
+  onSubmit() {
+    // TODO: Use EventEmitter with form value
+    console.warn(this.profileForm.value);
   }
 }

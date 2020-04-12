@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TAGHOT } from 'src/app/core/Mock/mock-taghot';
-import { FruitService } from 'src/app/core/services/service-fruits';
+import { FruitService } from 'src/app/core/http/fruits/service-fruits';
 import { Fruit } from 'src/app/shared/models/fruit';
 
 @Component({

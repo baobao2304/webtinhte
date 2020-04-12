@@ -34,4 +34,38 @@
     
                            
 </div>
+<hr>
+<div class="container">
+    <h1>demo form reactive</h1>
+    <p>tâm đắc chưa kiểm duyệt (X) : form reactive cho phép chúng ta lưu lại các giá trị từ in pust đẩy vào file ts và dùng nó để kêu gọi phương thức post 1 cách thuận tiện thay vì phải khai báo phương thức như các freamwork khác </p>
+    <h4>step1: khai báo reactiveformmodule vào module sử dụng</h4>
+    <h4>step2: khai báo formcontrol and formgroup vào file ts của component muốn sử dụng</h4>
+    <h4>step3: tạo form</h4>
+
+    <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+            <label>
+                email: 
+                <input type="text" formControlName="email">
+            </label>
+            <label>
+                name: 
+                <input type="text" formControlName="name">
+            </label>
+            <label>
+                numberphone: 
+                <input type="number" formControlName="numberphone">
+            </label>
+            <button type="submit">Submit</button>
+    </form>
+</div>
+<hr>
+<div class="container">
+    <h1>demo life hook</h1>
+    <!-- <p>tâm đắc chưa kiểm duyệt (X) : form reactive cho phép chúng ta lưu lại các giá trị từ in pust đẩy vào file ts và dùng nó để kêu gọi phương thức post 1 cách thuận tiện thay vì phải khai báo phương thức như các freamwork khác </p>
+    <h4>step1: khai báo reactiveformmodule vào module sử dụng</h4>
+    <h4>step2: khai báo formcontrol and formgroup vào file ts của component muốn sử dụng</h4>
+    <h4>step3: tạo form</h4> -->
+        
+    <!-- <input [(ngModel)]=""> -->
+</div>
 <p class="position-absolute bg-dark">testrouting works!</p>
